@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/auth")
-@CrossOrigin(origins = "http://localhost:8082")
+@CrossOrigin(origins = "http://localhost:8085")
 @Tag(name = "Authentication", description = "Endpoints for user authentication")
 public class AuthController {
     private final AuthService authService;
